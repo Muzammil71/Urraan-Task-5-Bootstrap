@@ -1,0 +1,260 @@
+@font-face {
+    font-family: myFonts;
+    src: url(fonts.ttf);
+}
+
+* {
+    font-family: "myFonts", sans-serif;
+}
+
+body {
+    border-left: 20px solid gray;
+    border-right: 20px solid gray;
+    border-bottom: 20px solid rgb(70, 70, 70);
+}
+
+:root {
+    --theme-color: brown;
+    --border-color: #646263;
+    --nav-link: #fff;
+    --btn-active: #676767;
+    --btn-color: brown;
+}
+
+.main-heading {
+    font-size: 2.8rem;
+    color: var(--btn-active);
+}
+
+.main-heading span {
+    color: var(--btn-color);
+}
+
+.button-show {
+    border-top: 2px solid var(--border-color);
+    width: 60%;
+}
+
+.button-show button {
+    padding: .8rem 1rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    width: 13.5rem;
+    color: var(--nav-link);
+    background-color: var(--btn-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section-header .call-us {
+    color: var(--theme-color);
+    font-size: 2rem;
+    font-weight: 800;
+    border-bottom: 3px solid var(--border-color);
+    margin: 0 .5rem;
+}
+
+.section-header .number {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.section-header .get-answer {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: .1px;
+    color: var(--border-color);
+}
+
+.navbar-custom {
+    background-color: var(--theme-color);
+}
+
+.navbar-custom .nav-link {
+    color: var(--nav-link);
+    font-size: 1.8rem;
+    padding: 1.2rem 2.2rem;
+}
+
+.navbar-custom .nav-item:first-child .nav-link {
+    background-color: var(--btn-active);
+}
+
+.hero-left {
+    background-image: url("Keeferimages/gurantee_banner.gif");
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.hero-right {
+    background-image: url("Keeferimages/form_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.question-left p {
+    background-color: var(--btn-color);
+    color: var(--nav-link);
+    font-size: 3.5rem;
+    padding: .5rem .8rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.question-right p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.question-right p span {
+    color: #082648;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.form-section .form-label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.confidential-img {
+    width: 90%;
+    height: 90%;
+    transform: rotate(4.5deg);
+}
+
+.guarantee-text {
+    color: var(--border-color);
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.guarantee-btn {
+    text-align: center;
+    padding: .8rem 1.7em;
+    background-color: var(--btn-color);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--nav-link);
+    width: 100%;
+}
+
+.box-card {
+    height: 100%;
+}
+
+.box-1 .sub-heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: var(--btn-color);
+}
+
+.box-2 {
+    border-left: 2px solid #E1E1E1;
+    border-right: 2px solid #E1E1E1;
+}
+
+.box-2--top {
+    padding-bottom: 1.1rem;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.menu-link {
+    background-color: #838383;
+    margin: 1.5rem 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.menu-link .link-content {
+    color: var(--nav-link);
+    padding: .9rem 1rem .3rem 1rem;
+}
+
+.menu-link .link-content h3 {
+    font-size: 1.8rem;
+}
+
+.menu-link .link-content .link a {
+    text-decoration: none;
+    color: var(--nav-link);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.draft {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.draft ul {
+    list-style-type: none;
+    font-weight: 700;
+    opacity: .5;
+    padding: 0;
+}
+
+.middle-content h1 {
+    color: var(--border-color);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.middle-content p {
+    color: var(--btn-active);
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.testimonial-card {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.social-links .main-heading {
+    text-align: center;
+    border-bottom: 3px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.social-links img {
+    width: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media (max-width: 768px) {
+    .section-header .number {
+        font-size: 2.5rem;
+    }
+    
+    .question-left p {
+        font-size: 2.5rem;
+    }
+    
+    .question-right p {
+        font-size: 1.8rem;
+    }
+    
+    .question-right p span {
+        font-size: 3rem;
+    }
+    
+    .confidential-img {
+        margin-top: 20px;
+    }
+    
+    .box-2 {
+        border-left: none;
+        border-right: none;
+    }
+}
