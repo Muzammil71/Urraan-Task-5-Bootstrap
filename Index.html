@@ -1,559 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keefer Law Firm</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-      body{
-  overflow-x: hidden;
-}
-.navbar{
-    background-color: brown;
-    padding: 0;
-}
-      .support h2{
-    text-transform: uppercase;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    font-size: 1.8vw;
-    font-weight: 900;
-    text-decoration: underline 3px #646162 ;
-    text-underline-offset: 5px;
-    color: brown;
-}
-
-.support{
- padding-top: 10px;
-}
-.support h1{
-    font-size: 3.9vw; 
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    color: 
-    #232323;
-}
-.support p{
-    font-size: 1.4vw;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: 
-    rgba(71,71,71,255);
-}
-.content{
-  background-image: url(Keeferimages/form_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 0;
- 
-  box-shadow: 1px 1px 10px black;
-}
-.ques h1{
-  background-color: brown;
-            color: rgba(248,248,248,255);
-            font-size: 22px;
-            padding: 5px; float: left;
-}
-      .btn-f1{
-    border-top: 1px solid rgb(70, 68, 68);
-    display: block;
-    margin: auto;
-    margin-left: 20px;
-}
-.btn-f1 button{
-    margin-right: 0.2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
-    border: none;
-    width: auto;
-    color: #fffffa;
-    font-size: 15px;
-    /* padding: 8px; */
-}
-.btn-f2{
-    margin-block: 2vw;
-    border-top: 1px solid rgb(70, 68, 68);
-    display: flex;
-    width: 100%;
-    justify-content: end;
-}
-.btn-f2 button{
-    margin-right: 1.2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
-    border: none;
-    width: auto;
-    color: #fffffa;
-    font-size: 15px;
-    /* padding: 7px; */
-}
-button img{
-  margin: 0.3vw 0.2vw;
-  margin-top: 0.4vw;
-}
-.btn-f3{
-  margin-block: 2vw;
-    border-top: 2px solid rgb(70, 68, 68);
-    width: 80%;
-  display: block;
-  margin: auto;
-}
-.btn-f3 button{
-    margin-right: 1.2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
-    border: none;
-    width: auto;
-    color: #fffffa;
-    font-size: 14px;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keefer Law Firm</title>
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="Style.css">
+    </head>
     
-}
-
-.block{
-  width: 100%;
-  margin: 1.2vw 0vw !important;
-  background-color: rgba(130,130,130,255);
-  color: white;
-  height: 17vh;
-}
-.block h1{
-  font-size: 18px;
-}
-.block> img{
-  width: 2.3%;
-}
-.detail{
-    width: 100%;
-    text-align: center;
-}
-.btn2{
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-.login{
-    display: flex;
-    margin: 0.5vw;
-}
-.login input{
-    font-size: 15px;
-    border: none;
-}
-.login label{
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 6px!important;
-}
-
-.btn2 button img{
-  margin:0.1vw;
-  margin-top: 0% !important;
-}
-.btn2 button{
-  font-size: 13px;
-  font-weight: 500;
-  color: white;
-  width: 70%;
-  text-align: end;
-  align-self: end;
-  border: none;
-  background-color: transparent;
-}
-@media(max-width:992px){
-  .btn-f3{
-   
-    margin-bottom: 20px;
-}
-  .confi-img{
-    width: 60%!important;
-  }
-  .text-sec{
-    width: 93%!important;
-  }
-  .para-p{
-    font-size: 20px!important;
-  }
-  .block{
-    height: 17vh;
-  }
-  
-
-.btn-h{
-  display: block;
-  margin: auto;
-
-}
-  .content , .picc  , .box3 , .box6{
-    display: block;
-    margin: auto;
-  }
-  .box3 , .box6{
-    text-align: center;
-  }
-  .content{
-    margin-top: 20px;
-  }
-  .picc{
-    padding-inline: 0 !important;
-  }
-}
-@media(max-width:768px){
-  .box1 , .box2 , .box3 , .box4 , .box5 , .box6{
-    display: block;
-    margin: auto;
-  }
-  
-  .detail p{
-    font-size: 15px;
-}
-  .para-p{
-  font-size: 17px!important;
-}
-.detail button{
-    padding: 2px 1px !important;
-    font-size: 16px !important;
-  } 
-  .btn-f3 button{
-    font-size: 13px!important;
-  }
-}
-@media(max-width:576px){
-  .gurantee-p{
-    font-size:11px!important;
-  }
-  .para-p{
-    font-size: 12px!important;
-  }
-  .text-sec{
-    width: 98%!important;
-  }
-  
- 
-
-}
-    </style>
-    
-  </head>
-  <body class="">
-    <header class="bg-secondary row">
-        <div class=" d-flex col-6" style=" margin: 0 !important; padding: 0% !important;">
-        <img style="width: 100%;"  src="Keeferimages/logo.png" alt="Keefer Law Firm plc logo" />
-      </div>
-      <div class=" support col-6 d-flex bg-white flex-column align-items-end" style="padding-right: 30px;">
-        <h2>call our offices now!</h2>
-        <h1>540.433.6906</h1>
-        <p>Get Your Questions Answered Fast</p>
-      </div>
-    </header>
-    <nav class="navbar navbar-expand-md  d-flex justify-content-end" >
-      <div class="">
-      
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <img class="navbar-toggler-icon" src="Keeferimages/responsive_menu_icon.png"/>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-          <div class=" navbar-nav" style="font-size: 15px;">
-            <a class="nav-link px-3  text-white active" aria-current="page" href="#">HOME</a>
-            <a class="nav-link px-3  text-white" href="#">BIOGRAPHY</a>
-            <a class="nav-link px-3  text-white" href="#">BLOG</a>
-            <a class="nav-link px-3  text-white" href="#">AREAS WE SERVE</a>
-            <a class="nav-link px-3 text-white" href="#">LIBRARY</a>
-            <a class="nav-link px-3 text-white" href="#">CONTACT</a>
-            
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-    <section class="my-4 ">
-      <div class="container-fluid row m-auto">
-        <div  class="col-lg-6 col-12 d-flex picc">
-        <img  src="Keeferimages/gurantee_banner.gif" style=" box-shadow: 1px 1px 10px black;" width="100%" alt="" /></div>
-        <div class="content col-12 col-lg-6 d-flex flex-column">
-            <div class="ques">
-            <h1>QUESTIONS?</h1>
-            <div class="d-flex flex-column align-items-center ink">
-              <h2 style="font-size: 17px;">Have a <span style="font-size: 30px;" class="text-primary">Question</span>
-                <h2 style="font-size: 17px; margin-top: -5px;"> About Your Case?</h2></h2>
-              </div>
-              </div>
-            
-         
-          <div class="px-4">
-            <p style="font-size: 16px; padding: 0px 1.5vw;">
-              Enter your information and get your questions answered quickly and
-              discreetly or call us at: <span class="fw-bold"> 540.433.6906 </span>
-            </p>
-            <div class="row d-flex justify-content-center">
-              <div class="col-7   d-flex flex-column justify-content-center">
-                <div class=" login">
-                  <label for="Name">NAME:</label>
-                  <input style="margin-left: 6px; width: 100%;" type="name" />
+    <body>
+        <!-- Header -->
+        <header class="conatiner text-center">
+            <div class="row align-items-start">
+                <div class="col-lg-7 d-flex">
+                    <img style="width:100%;" src="Keeferimages/logo.png" alt="Keefer Law Firm plc logo"/>
                 </div>
-                <div class=" login">
-                  <label for="email">EMAIL:</label>
-                  <input style="margin-left: 6px; width: 100%;" type="email" />
+                <div class="col-lg-5 my-2 align-items-end">
+                    <p class="call-us">Call our offices now!</p>
+                    <p class="number">540.433.6906</p>
+                    <p class="get-answer">Get Your Questions Answered Fast</p>
                 </div>
-                <div class="login">
-                  <label for="number">PHONE:</label>
-                  <input style="width: 100%;" type="number" />
-                </div>
-              </div>
-              <div class="col-5  info d-flex justify-content-center align-items-center">
-                <img class="img-fluid confi-img" style="transform: rotate(15deg);
-  width: 90%;" src="Keeferimages/confidential.png" alt="" />
-              </div>
             </div>
-            <div class="py-2 px-3">
-            <textarea class="text-sec" style="resize: none; width: 100%; height: 67px;" maxlength="150"
-              type="text"
-              placeholder="Tell us about your case here..."
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-custom py-0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BIOGRAPHY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AREAS WE SERVE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIBRARY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="section-sec row m-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                <img src="Keeferimages/gurantee_banner.gif" alt="" class="w-100 pb-1"/>
+            </div>
+            <div class="col-12 col-sm-12 xl-md-12 col-lg-12 col-xl-6 col-xxl-6">
+                <div class="bg-img ms-lg-1 ps-lg-0">
+                    <div class="img-02">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-5">
+                                <p class="questions fs-2 m-0 text-white fw-bold text-center bg-colour-danger display-lg-5">QUESTIONS?</p>
+                            </div>
+                            <div class="col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 mx-sm-auto text-center mx-xl-0 ms-xl-4">
+                                <p class="w-100 fs-4 fw-semibold mb-0 lh-1 ms-sm-0 ms-lg-0 ms-xl-2 ms-xxl-2 m-0 p-0 text-sm-center text-xl-start text-xxl-start text-lg-center">Have a <span class="word-question fw-bold fs-2">Question </span> <br> About Your Case</p>
+                            </div>
+                            <div class="text-sm-center text-center ps-0 text-xl-start ms-xl-4">
+                                <p class="fs-5 m-1 ms-3">Enter your information and get your questions answered <br> quickly and discretely or call us at: <span class="text-black fw-bold">540.433.6906</span></p>
+                            </div>
+                        </div>
+                        <div class="form-img">
+                            <div class="ms-4 mb-2 ms-sm-1">
+                                <label for="name" class="ms-2 text-black">NAME:</label>
+                                <input type="text" class="mb-2 w-sm-100"><br>
+                                <label for="name" class="ms-2 text-black">EMAIL:</label>
+                                <input type="text" class="mb-2"><br>
+                                <label for="name">PHONE:</label>
+                                <input type="text">
+                            </div>
+                            <div class="mt-4">
+                                <img src="Keeferimages/confidential.png" alt="" class="confidential d-none d-sm-block"/>
+                            </div>
+                        </div>
+                        <div class="ms-4 ms-xl-0">
+                            <textarea id="textareas" class="case-textarea ms-md-5 ms-sm-5 ms-lg-5 ">Tell us about your case here...</textarea>
+                        </div>
+                        <div class="d-flex justify-content-center gap-4 mt-4">
+                            <div>
+                                <p class=" text-secondary fst-italic">100% Privacy Guarenteed</p>
+                            </div>
+                            <div>
+                                <button class="ask-button  butt  text-white ">Ask Us About Your Case
+                                    <img src="./Imeges/assets/bullet_white.gif" alt=""/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            ></textarea></div>
-            <div class="pb-2 detail  row">
-              <p class="col-6 gurantee-p " style="font-style: italic">100% Privacy Gauranted</p>
-              <button class="col-5  col-md-5 col-lg-6" style=" color: white;  background-color: brown; align-items: center; justify-content: center; border: none; display: flex;   font-size: 16px;">
-                <p class="para-p" style="font-size: 14px;padding-top: 10px;">Ask Us About Your Case</p>
-                <img class="img-img-b" style="margin-top: -3px;" src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
+            <div class="row sec1 container-fluid m-auto">
+                <div class=" box1 col-lg-4 col-md-6 col-10 mt-5">
+                    <div>
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 21px;">charged with <span style=" color:brown;">DUI?</span></h1>
+                        <h3 style=" color:brown; font-size: 21px;" class="text-uppercase">free case evaluation</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <p style="font-size: 14px; font-family: Tahoma, sans-serif; padding-block: 10px;"> Being charged with a DUI can be scary. Get the help you deserve.</p>
+                            <p style="font-size: 14px; font-family: Tahoma, sans-serif; padding-block: 10px;"> Click here to let us know how we can help you with your case.</p>
+                        </div>
+                        <div class="pict col-4 col-sm-3">
+                            <img src="Keeferimages/paste_board.gif" width="100%" alt=""/></div>
+                        </div>
+                        <div class="row">
+                            <div class=" btn-f1 col-7 btn" style="margin-top: -23px;">
+                                <button class="ms-auto" style="margin-top: -6px;">CLICK HERE
+                                    <img src="Keeferimages/bullet_white.gif" alt=""/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2 col-lg-4 col-md-6 col-10 mt-5" style="border-left: 1px solid; border-right: 1px solid;">
+                        <div class=" row" style="border-bottom: 1px solid;">
+                            <div class="col-7">
+                                <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">law <span style=" color:brown;">BLOG</span></h1>
+                                <p style="font-size: 14px; font-family: Tahoma, sans-serif;">Learn more about Virginia Traffic Laws</p>
+                                <div class="btn-f2">
+                                    <button>CLICK HERE
+                                        <img src="Keeferimages/bullet_white.gif" alt=""/>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="pic12 col-5 col-sm-4">
+                                <img src="Keeferimages/pic1.gif" width="100%" alt=""/>
+                            </div>
+                        </div>
+                        <div class=" row" style="margin-top: 10px;">
+                            <div class="ext col-7 chrg">
+                                <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 20px;">case <span style=" color:brown;">RESULTS</span></h1>
+                                <p style="font-size: 12px; font-family: Tahoma, sans-serif;"> See how we help or clients. <br> Read our latest case redults.</p>
+                                <div class=" btn-f2">
+                                    <button>CLICK HERE
+                                        <img src="Keeferimages/bullet_white.gif" alt=""/>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="pic12 col-5 col-sm-4">
+                                <img src="Keeferimages/order_icon.gif" alt="" style="width: 100%;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box3 col-10 col-md-5 col-sm-7 mt-5 col-lg-4">
+                        <div class="pic3 p-2 d-flex justify-content-center">
+                            <img src="Keeferimages/qqq.gif" class="m-2" width="35%" alt=""/>
+                            <img class="m-2" src="Keeferimages/national_college_small.gif" width="30%" alt=""/>
+                        </div>
+                        <div class="ext chrg not text-center">
+                            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 24px;">certificates & <span style=" color:brown;">CREDENTIALS</span></h1>
+                            <p style="font-family: Tahoma, sans-serif; font-size: 14px;">Keefer Law Firm has protectsd the <br> rights of Virginians for over 30 years.</p>
+                            <div class="row">
+                                <div class="btn-f1 btn-h col-9">
+                                    <button class="ms-auto">LEARN MORE
+                                        <img src="Keeferimages/bullet_white.gif" alt=""/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-hr" style="width: 100%;">
+                    <img src="Keeferimages/lf_bt_hr_shadow.png" width="100%" alt="">
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row sec1 container-fluid m-auto">
-        <div class=" box1 col-lg-4 col-md-6 col-10 mt-5">
-          <div class="">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 21px;">charged with <span style=" color:brown;">DUI?</span></h1>
-            <h3 style=" color:brown; font-size: 21px;" class="text-uppercase">free case evaluation</h3>
-          </div>
-          <div class="row">
-            <div class="col-8">
-              <p style="font-size: 14px;
-              font-family:
-               Tahoma, sans-serif;
-              padding-block: 10px;">
-                Being charged with a DUI can be scary. Get the help you deserve.
-              </p>
-              <p style="font-size: 14px;
-              font-family:
-               Tahoma, sans-serif;
-              padding-block: 10px;">
-                Click here to let us know how we can help you with your case.
-              </p>
-            </div>
-            <div class="pict col-4 col-sm-3">
-              <img src="Keeferimages/paste_board.gif" width="100%" alt="" /></div>
-          </div>
-          <div class=" row">
-          <div class=" btn-f1 col-7 btn" style="margin-top: -23px;">
-            <button class="ms-auto" style="margin-top: -6px;">
-              CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-            </button>
-          </div>
-         </div>
-        </div>
-        <div class="box2 col-lg-4 col-md-6 col-10 mt-5" style="border-left: 1px solid; border-right: 1px solid;">
-          <div class=" row" style="border-bottom: 1px solid;">
-          <div class="col-7">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">law <span style=" color:brown;">BLOG</span></h1>
-            <p style="font-size: 14px;
-            font-family:
-             Tahoma, sans-serif;">Learn more about Virginia Traffic Laws</p>
-            <div class="btn-f2">
-              <button>
-                CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="pic12 col-5 col-sm-4">
-            <img src="Keeferimages/pic1.gif" width="100%" alt="" />
-          </div>
-        </div>
-          
-          <div class=" row" style="margin-top: 10px;">
-          <div class="ext col-7 chrg">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 20px;">case <span style=" color:brown;">RESULTS</span></h1>
-            <p style="font-size: 12px;
-            font-family:
-             Tahoma, sans-serif;
-            ">
-              See how we help or clients. <br />
-              Read our latest case redults.
-            </p>
-            <div class=" btn-f2">
-              <button>
-                CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="pic12 col-5 col-sm-4" >
-            <img src="Keeferimages/order_icon.gif" alt="" style="width: 100%;" />
-          </div>
-        </div>
-        </div>
-        <div class="box3 col-10 col-md-5 col-sm-7 mt-5 col-lg-4">
-          <div class="pic3 p-2 d-flex justify-content-center">
-            <img src="Keeferimages/qqq.gif" class="m-2" width="35%" alt="" />
-            <img class="m-2" src="Keeferimages/national_college_small.gif" width="30%" alt="" />
-          </div>
-          <div class="ext chrg not text-center">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 24px;">certificates & <span style=" color:brown;">CREDENTIALS</span></h1>
-            <p style="
-            font-family:
-             Tahoma, sans-serif; font-size: 14px;
-            ">
-              Keefer Law Firm has protectsd the <br> rights of Virginians for over 30
-              years.
-            </p>
-            <div class=" row">
-            <div class="btn-f1 btn-h   col-9">
-              <button class="ms-auto">
-                LEARN MORE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
-            </div>
-           </div>
-          </div>
-        </div>
-      </div>
-      <div class="img-hr" style="width: 100%;">
-        <img src="Keeferimages/lf_bt_hr_shadow.png" width="100%" alt="">
-      </div>
-    </section>
-    <section class="sec2 container-fluid m-lg-2">
-      <div class="row">
-      <div class="box4 col-md-3 p-3 col-10 col-lg-3">
-        <div class="chrg">
-          <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 24px">practice <span style=" color:brown;">AREAS</span></h1>
-        </div>
-        <div class="block d-flex m-2">
-          <img src="Keeferimages/menu_bg.gif" alt="" />
-          <div class="btn2">
-            <h1>DUI & DWI</h1>
-            <button>
-              LEARN MORE <img src="Keeferimages/bullet_red.gif" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="block d-flex m-2">
-          <img src="Keeferimages/bullet_red.gif" alt="" />
-          <div class="btn2">
-            <h1>DUI & DWI</h1>
-            <button>
-              LEARN MORE <img src="Keeferimages/bullet_red.gif" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="block d-flex m-2">
-          <img src="Keeferimages/menu_bg.gif" alt="" />
-          <div class="btn2">
-            <h1>DUI & DWI</h1>
-            <button>
-              LEARN MORE <img src="Keeferimages/bullet_red.gif" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="block d-flex m-2">
-          <img src="Keeferimages/menu_bg.gif" alt="" />
-          <div class="btn2">
-            <h1>DUI & DWI</h1>
-            <button>
-              LEARN MORE <img src="Keeferimages/bullet_red.gif" alt="" />
-            </button>
-          </div>
+        </main>
 
-        </div>
-        <div class="chrg">
-            <h1 class="text-uppercase p-2" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 19px; margin-top: 50px;">learn <span style=" color:brown;">MORE</span> about</h1>
-        </div>
-        <div class="left-last text-center row p-2">
-            <p class="col-lg-12 col-4">MENU</p>
-            <p class="col-lg-12 col-4">AREA</p>
-            <p class="col-lg-12 col-4">HERE</p>
-
-        </div>
-      </div>
-      <div class="box5 col-md-6 p-3 col-10 col-lg-6">
-          <h1 class="text-uppercase" style="font-size: 30px;"> page title here </h1>
-            <p style="font-size: 11px;">Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.</p>
-      </div>
-      <div class="box6 col-md-3 col-10 col-lg-3">
-        <div class="ext5 chrg">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">client <span style=" color:brown;">TESTIMONIALS<span></h1>
-            <p style="font-size: 15px;
-            font-family:
-             Tahoma, sans-serif;
-            ">
-              Read what others say about Keefer Law Firm.
-            </p>
-            <div class="btn-f3 ">
-              <button class="ms-auto">
-                CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
+        <!-- Content Section -->
+        <section class="sec2 container-fluid m-lg-2">
+            <div class="row">
+                <div class="box4 col-md-3 p-3 col-10 col-lg-3">
+                    <div class="chrg">
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 24px">practice <span style=" color:brown;">AREAS</span></h1>
+                    </div>
+                    <div class="block d-flex m-2">
+                        <img src="Keeferimages/menu_bg.gif" alt=""/>
+                        <div class="btn2">
+                            <h1>DUI & DWI</h1>
+                            <button>LEARN MORE 
+                                <img src="Keeferimages/bullet_red.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="block d-flex m-2">
+                        <img src="Keeferimages/menu_bg.gif" alt=""/>
+                        <div class="btn2">
+                            <h1>DUI & DWI</h1>
+                            <button>LEARN MORE
+                                <img src="Keeferimages/bullet_red.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="block d-flex m-2">
+                        <img src="Keeferimages/menu_bg.gif" alt=""/>
+                        <div class="btn2">
+                            <h1>DUI & DWI</h1>
+                            <button>LEARN MORE
+                                <img src="Keeferimages/bullet_red.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="block d-flex m-2">
+                        <img src="Keeferimages/menu_bg.gif" alt=""/>
+                        <div class="btn2">
+                            <h1>DUI & DWI</h1>
+                            <button>LEARN MORE
+                                <img src="Keeferimages/bullet_red.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chrg">
+                        <h1 class="text-uppercase p-2" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 19px; margin-top: 50px;">learn <span style=" color:brown;">MORE</span> about</h1>
+                    </div>
+                    <div class="left-last text-center row p-2">
+                        <p class="col-lg-12 col-4">MENU</p>
+                        <p class="col-lg-12 col-4">AREA</p>
+                        <p class="col-lg-12 col-4">HERE</p>
+                    </div>
+                </div>
+                
+                <div class="box5 col-md-6 p-3 col-10 col-lg-6">
+                    <h1 class="text-uppercase" style="font-size: 30px;"> page title here </h1>
+                    <p style="font-size: 18px;">Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.</p>
+                </div>
+                
+                <div class="box6 col-md-3 col-10 col-lg-3">
+                    <div class="ext5 chrg">
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">client <span style=" color:brown;">TESTIMONIALS<span></h1>
+                        <p style="font-size: 15px; font-family: Tahoma, sans-serif;">Read what others say about Keefer Law Firm.</p>
+                        <div class="btn-f3">
+                            <button class="ms-auto">CLICK HERE
+                                <img src="Keeferimages/bullet_white.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="ext5 chrg">
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;margin-top: 15px;">download <span style=" color:brown;">FREE</span> Reports</h1>
+                        <p style="font-size: 15px; font-family: Tahoma, sans-serif;">Discover the truth about Virginia Law.</p>
+                        <div class="btn-f3">
+                            <button class="ms-auto">CLICK HERE
+                                <img src="Keeferimages/bullet_white.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="ext5 chrg" style="padding-bottom: 20px;">
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;margin-top: 15px;">contact <span style=" color:brown;">OUR</span> offices</h1>
+                        <p style="font-size: 15px; font-family: Tahoma, sans-serif;">Get your questions answered right now.</p>
+                        <div class=" btn-f3">
+                            <button class="ms-auto">CLICK HERE
+                                <img src="Keeferimages/bullet_white.gif" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pic4 text-center p-2">
+                        <img src="Keeferimages/avo_rating_large.gif" alt="">
+                    </div>
+                    
+                    <div class="pic4 text-center p-2">
+                        <img src="Keeferimages/national_college_large.gif" alt="">
+                    </div>
+                    
+                    <div class="ext2 text-center p-2 pt-3">
+                        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">follow <span style=" color:brown;">US</span></h1>
+                    </div>
+                    
+                    <img class="ext4" src="Keeferimages/lf_bt_hr_shadow.png" width="100%" alt="">
+                    <div class="icons text-center">
+                        <img src="Keeferimages/fb_icon.gif"  class="m-1" alt=""><img class="m-1" src="Keeferimages/google_icon.gif" alt=""><img class="m-1" src="Keeferimages/twitter_icon.gif" alt=""><img class="m-1" src="Keeferimages/linked_icon.gif" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="ext5 chrg">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;margin-top: 15px;">download <span style=" color:brown;">FREE</span> Reports</h1>
-            <p style="font-size: 15px;
-            font-family:
-             Tahoma, sans-serif;
-            ">
-              Discover the truth about Virginia Law.
-            </p>
-            <div class="btn-f3 ">
-              <button class="ms-auto">
-                CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="ext5 chrg" style="padding-bottom: 20px;">
-            <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;margin-top: 15px;">contact <span style=" color:brown;">OUR</span> offices</h1>
-            <p style="font-size: 15px;
-            font-family:
-             Tahoma, sans-serif;
-            ">
-              Get your questions answered right now.
-            </p>
-            <div class=" btn-f3 ">
-              <button class="ms-auto">
-                CLICK HERE <img src="Keeferimages/bullet_white.gif" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="pic4 text-center p-2">
-        <img src="Keeferimages/avo_rating_large.gif" alt="">
+        </section>
         
-      </div>
-          <div class="pic4 text-center p-2">
-        <img src="Keeferimages/national_college_large.gif" alt="">
-
-
-      </div>
-      <div class="ext2 text-center p-2 pt-3">
-        <h1 class="text-uppercase" style="font-family: 'Times New Roman', serif; font-weight: 550; font-size: 22px;">follow <span style=" color:brown;">US</span></h1>
-
-      </div>
-      <img class="ext4" src="Keeferimages/lf_bt_hr_shadow.png" width="100%" alt="">
-      <div class="icons text-center">
-        <img src="Keeferimages/fb_icon.gif"  class="m-1" alt=""><img class="m-1" src="Keeferimages/google_icon.gif" alt=""><img class="m-1" src="Keeferimages/twitter_icon.gif" alt=""><img class="m-1" src="Keeferimages/linked_icon.gif" alt="">
-      </div>
-      </div>
-      
-    </section>
-
-       
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>

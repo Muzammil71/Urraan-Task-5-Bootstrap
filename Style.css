@@ -1,0 +1,205 @@
+@font-face {
+  font-family: myFonts;
+  src: url(fonts.ttf);
+}
+* {
+  font-family: "myFonts", sans-serif;
+}
+body {
+  border-left: 20px solid gray;
+  border-right: 20px solid gray;
+  border-bottom: 20px solid rgb(70, 70, 70);
+}
+
+
+.call-us {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.8vw;
+  font-weight: 900;
+  text-decoration: underline 3px #646162 ;
+  text-underline-offset: 5px;
+  color: brown;
+}
+.number {
+  font-size: 3.9vw; 
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  line-height: 1rem;
+  color:#232323;
+}
+.get-answer {
+  font-size: 1.4vw;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgba(71,71,71,255);
+  margin: 0;
+}
+
+
+.navbar-custom {
+  background-color: brown;
+}
+.navbar-custom .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+.navbar-custom .nav-item:first-child .nav-link {
+  background-color: gray;
+}
+
+
+.bg-img {
+  background-image: url("Keeferimages/form_bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;  
+  height: 100%;
+}
+.questions {
+  background-color: brown;
+}
+.word-question {
+  color: #072B5B;
+}
+.form-img {
+  display: flex;
+  justify-content:space-around ;
+}
+.confidential {
+  transform: rotate(18deg);
+}
+#textareas {
+  width: 86%;
+}
+.banner {
+  height: 80%;
+}
+.banner-1 {
+  height: 70%
+}
+.butt {
+  border: none;
+  background-color: brown;
+}
+
+
+.btn-f1{
+  border-top: 1px solid rgb(70, 68, 68);
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+}
+.btn-f1 button{
+  margin-right: 0.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+.btn-f2{
+  margin-block: 2vw;
+  border-top: 1px solid rgb(70, 68, 68);
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.btn-f2 button{
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+button img{
+margin: 0.3vw 0.2vw;
+margin-top: 0.4vw;
+}
+.btn-f3{
+margin-block: 2vw;
+  border-top: 2px solid rgb(70, 68, 68);
+  width: 80%;
+display: block;
+margin: auto;
+}
+.btn-f3 button{
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 14px;
+  
+}
+
+
+.block {
+  width: 100%;
+  margin: 1.2vw 0vw !important;
+  background-color: rgba(130,130,130,255);
+  color: white;
+  height: 17vh;
+}
+.block h1 {
+  font-size: 18px;
+}
+.block img {
+  width: 2.3%;
+}
+.detail {
+  width: 100%;
+  text-align: center;
+}
+.btn2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login {
+  display: flex;
+  margin: 0.5vw;
+}
+.login input {
+  font-size: 15px;
+  border: none;
+}
+.login label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 6px!important;
+}
+.btn2 button img {
+  margin:0.1vw;
+  margin-top: 0% !important;
+}
+.btn2 button {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  width: 70%;
+  text-align: end;
+  align-self: end;
+  border: none;
+  background-color: transparent;
+}
+
+@media(max-width:768px){
+  .box1 , .box2 , .box3 , .box4 , .box5 , .box6{
+    display: block;
+    margin: auto;
+  }
+}
