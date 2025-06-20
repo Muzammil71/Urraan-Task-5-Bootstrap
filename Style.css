@@ -151,7 +151,7 @@ margin: auto;
   margin: 1.2vw 0vw !important;
   background-color: rgba(130,130,130,255);
   color: white;
-  height: 17vh;
+  height: 10vh;
 }
 .block h1 {
   font-size: 18px;
@@ -196,10 +196,16 @@ margin: auto;
   border: none;
   background-color: transparent;
 }
-
+.box2 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
 @media(max-width:768px){
   .box1 , .box2 , .box3 , .box4 , .box5 , .box6{
     display: block;
     margin: auto;
+  }
+  .box2 {
+    border: none;
   }
 }
